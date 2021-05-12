@@ -1,0 +1,29 @@
+.header {
+
+   nav {
+      padding: 24px;
+   }
+
+   // logo
+   &__logo {
+      img {
+
+      }
+   }
+
+   // mobile menu
+   &__menu {
+      // > is a direct child selector
+      > span {
+         display: block;
+         width: 26px;
+         height: 2px;
+         background: $darkBlue;
+
+         // not selector (selecting everthing but the last span)
+         &:not(:last-child) {
+            margin-bottom: 3px;
+         }
+      }
+   }
+}
