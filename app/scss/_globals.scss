@@ -1,0 +1,18 @@
+html {
+   font-size: 100%; // this lets the user control, the zoom level in their browser
+   box-sizing: border-box;
+}
+
+/* Inherit the box-sizing: border-box (in the html element)
+   to all elements using the wild card selector here as well as the
+   before pseudo element and the after psuedo element: */
+*, *::before, *::after {
+   box-sizing: inherit;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Public Sans', sans-serif;
+   line-height: 1.3;
+}
