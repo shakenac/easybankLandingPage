@@ -35,6 +35,16 @@ a, a:visited, a:hover {
   align-items: center;
 }
 
+button, .button {
+  padding: 1rem 1.875rem;
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 .header nav {
   padding: 24px;
 }
