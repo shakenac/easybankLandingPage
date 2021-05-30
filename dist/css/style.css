@@ -99,5 +99,13 @@ button, .button {
 .header__links a:hover::before {
   opacity: 1;
 }
+.header__cta {
+  font-size: 0.875rem;
+  color: white;
+}
+.header__cta:hover {
+  opacity: 0.75;
+  transition: opacity 400ms ease-in-out;
+}
 
 /*# sourceMappingURL=style.css.map */
