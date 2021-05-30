@@ -31,20 +31,36 @@
    // Nav Links
    &__links {
       a {
+         position: relative;
          font-size: 0.875rem;
          color: $grayishBlue;
-         transition: color 100ms ease-in-out;
-
-         // padding-bottom: 1.5rem; // MY SOLUTION
+         transition: color 250ms ease-in-out;
 
          &:not(:last-child) {
             margin-right: 32px;
          }
 
+         &::before {
+            content: "";
+            position: absolute;
+            height: 5px;
+            left: 0;
+            right: 0;
+            bottom: -27px;
+            background: linear-gradient(to right, $limeGreen, $brightCyan);
+
+            // allows the border bottom to transition in
+            opacity: 0;
+            transition: opacity 250ms ease-in-out;
+         }
+
          &:hover {
             color: $darkBlue;
 
-            // border-bottom: 0.3125rem solid $limeGreen; // MY SOLUTION
+            &::before {
+               // allows the border bottom to transition in (opacity 1 will allow it to appear on hover)
+               opacity: 1;
+            }
          }
       }
    }
