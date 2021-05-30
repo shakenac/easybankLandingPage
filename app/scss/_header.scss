@@ -1,7 +1,7 @@
 .header {
 
    nav {
-      padding: 24px;
+      padding: 1.0624rem 1.5rem;
    }
 
    // logo
@@ -33,9 +33,18 @@
       a {
          font-size: 0.875rem;
          color: $grayishBlue;
+         transition: color 100ms ease-in-out;
+
+         // padding-bottom: 1.5rem; // MY SOLUTION
 
          &:not(:last-child) {
             margin-right: 32px;
+         }
+
+         &:hover {
+            color: $darkBlue;
+
+            // border-bottom: 0.3125rem solid $limeGreen; // MY SOLUTION
          }
       }
    }
