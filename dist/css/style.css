@@ -67,7 +67,7 @@ button, .button {
   transform: rotate(-45deg);
 }
 .header.open .overlay {
-  position: absolute;
+  position: fixed;
   top: 3.75rem;
   right: 0;
   bottom: 0;
