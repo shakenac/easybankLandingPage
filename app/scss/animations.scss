@@ -1,0 +1,14 @@
+
+// animations for Header overlay
+@keyframes fade-in {
+
+   //inital styles go in the from bracket
+   from {
+      opacity: 0;
+   }
+
+   //end styles go in the to bracket
+   to {
+      opacity: 1;
+   }
+}
