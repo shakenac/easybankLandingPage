@@ -16,6 +16,7 @@
          }
       }
       .overlay {
+         display: none;
          position: fixed;
          top: 3.75rem; // this prevents the overlay from covering nav
          right: 0;
