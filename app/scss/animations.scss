@@ -1,3 +1,7 @@
+.has-fade {
+   visibility: hidden;
+}
+
 
 // animations for Header overlay
 
@@ -14,6 +18,7 @@
    }
    //end styles go in the to bracket
    to {
+      visibility: visible;
       opacity: 1;
    }
 }
