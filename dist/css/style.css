@@ -58,7 +58,8 @@ a, a:visited, a:hover {
 }
 
 .container {
-  padding: 1.0624rem 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .flex {
@@ -114,6 +115,10 @@ button, .button {
   left: 0;
   background-image: linear-gradient(#2d314d, transparent);
 }
+.header nav {
+  padding-top: 1.0624rem;
+  padding-bottom: 1.0624rem;
+}
 .header__logo img {
   width: 8.8125rem;
   height: 1.375rem;
@@ -132,6 +137,12 @@ button, .button {
 .header__menu {
   background: white;
   padding: 1.625rem;
+  border-radius: 0.3125rem;
+  margin-top: 1.5rem;
+  position: absolute;
+  width: calc(100% - 3rem);
+  left: 50%;
+  transform: translateX(-50%);
 }
 .header__menu a {
   display: block;
