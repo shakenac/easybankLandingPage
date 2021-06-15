@@ -57,6 +57,10 @@ a, a:visited, a:hover {
   text-decoration: none;
 }
 
+.container {
+  padding: 1.0624rem 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -110,9 +114,6 @@ button, .button {
   left: 0;
   background-image: linear-gradient(#2d314d, transparent);
 }
-.header nav {
-  padding: 1.0624rem 1.5rem;
-}
 .header__logo img {
   width: 8.8125rem;
   height: 1.375rem;
@@ -127,6 +128,16 @@ button, .button {
 }
 .header__toggle > span:not(:last-child) {
   margin-bottom: 5px;
+}
+.header__menu {
+  background: white;
+  padding: 1.625rem;
+}
+.header__menu a {
+  display: block;
+  padding: 0.625rem;
+  text-align: center;
+  color: #2d314d;
 }
 .header__links a {
   position: relative;

@@ -34,9 +34,9 @@
    }
 
 
-   nav {
-      padding: 1.0624rem 1.5rem;
-   }
+   // nav {
+   //    padding: 1.0624rem 1.5rem;
+   // }
 
    // logo
    &__logo {
@@ -46,7 +46,7 @@
       }
    }
 
-   // mobile menu
+   // mobile menu toggle
    &__toggle {
       // > is a direct child selector
       //hamburger menu
@@ -62,6 +62,20 @@
          &:not(:last-child) {
             margin-bottom: 5px;
          }
+      }
+   }
+
+
+   // mobile menu
+   &__menu {
+      background: $white;
+      padding: 1.625rem;
+
+      a {
+         display: block;
+         padding: .625rem;
+         text-align: center;
+         color: $darkBlue;
       }
    }
 
